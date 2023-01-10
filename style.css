@@ -27,7 +27,10 @@ input:not([type="radio"]):not([type="checkbox"]), button {
 
 body {
     background-image: url("./images/winter.jpg");
+    background-position: center center;
     background-size: cover;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
     color: var(--dark);
 }
 
@@ -200,3 +203,4 @@ input:checked ~ .bubble::after {
     text-decoration: line-through;
     color: var(--grey);
 }
+
